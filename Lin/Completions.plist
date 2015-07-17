@@ -19,6 +19,12 @@
 		<key>LINKeyCompletionPatterns</key>
 		<array>
 			<dict>
+					<key>Objective-C</key>
+					<string>KSLocalizedString\s*\(\s*(\w*)</string>
+					<key>Swift</key>
+					<string>KSLocalizedString\s*\(\s*(\w*)</string>
+		  </dict>
+			<dict>
 				<key>Objective-C</key>
 				<string>NSLocalizedString\s*\(\s*(\w*)</string>
 				<key>Swift</key>
